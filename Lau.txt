@@ -1,0 +1,600 @@
+  100  npm install -g angular-cli-ghpages
+  101  angular-cli-ghpages --dir=dist/star-collection-game
+  102  git status
+  103  git push origin main
+  104  rm -rf node_modules/.cache/gh-pages
+  105  angular-cli-ghpages --dir=dist/star-collection-game
+  106  rm -rf node_modules/.cache/gh-pages
+  107  git remote -v
+  108  git remote add origin https://github.com/Lau-Pere/star-collection-game.git
+  109  cd ~/OneDrive/Escritorio/star-collection-game
+  110  ls
+  111  git remote -v
+  112  ng build --configuration production --base-href "https://Lau-Pere.github.io/star-collection-game/"
+  113  npx angular-cli-ghpages --dir=dist/star-collection-game
+  114  [200~mkdir ../gh-pages-deploy
+  115  cp -r dist/star-collection-game/* ../gh-pages-deploy/
+  116  cd ../gh-pages-deploy
+  117  git init
+  118  git remote add origin https://github.com/Lau-Pere/star-collection-game.git
+  119  git checkout -b gh-pages
+  120  git add .
+  121  git commit -m "Deploy manual a gh-pages"
+  122  git push -f origin gh-pages
+  123  ng build --configuration production --base-href "/star-collection-game/"
+  124  npx angular-cli-ghpages --dir=dist/star-collection-game
+  125  npx angular-cli-ghpages --dir=dist/star-collection-game --verbose
+  126  cd dist/star-collection-game
+  127  git init
+  128  git remote add origin https://github.com/Lau-Pere/star-collection-game.git
+  129  git checkout -b gh-pages
+  130  git add .
+  131  git commit -m "Deploy manual de build Angular"
+  132  git push --force origin gh-pages
+  133  git checkout main
+  134  git status
+  135  git branch          # ramas locales
+  136  git branch -r       # ramas remotas
+  137  git checkout -b main
+  138  git push -u origin main
+  139  git fetch origin main
+  140  git checkout main
+  141  git reset --hard origin/main
+  142  git push origin main
+  143  ng build --configuration production --base-href "/star-collection-game/"
+  144  npx angular-cli-ghpages --dir=dist/star-collection-game
+  145  rm -rf dist
+  146  ng build --configuration production --base-href "/star-collection-game/"
+  147  cd ~/OneDrive/Escritorio/star-collection-game
+  148  rm -rf dist
+  149  ng build --configuration production --base-href "/star-collection-game/"
+  150  npx angular-cli-ghpages --dir=dist/star-collection-game
+  151  code .
+  152  git pull origin main
+  153  ng build --configuration production --base-href "/star-collection-game/"
+  154  npx angular-cli-ghpages --dir=dist/star-collection-game
+  155  ng build --base-href /star-collection-game/
+  156  npx angular-cli-ghpages --dir=dist/mi-nuevo-proyecto
+  157  ls dist
+  158  npx angular-cli-ghpages --dir=dist/star-collection-game
+  159  code .
+  160  git add .
+  161  git commit -m "Actualiza juego: se ajustan elementos visuales y lógica"
+  162  ng build --base-href /star-collection-game/
+  163  npx angular-cli-ghpages --dir=dist/star-collection-game
+  164  ng build --base-href /star-collection-game/
+  165  npx angular-cli-ghpages --dir=dist/star-collection-game
+  166  dist/star-collection-game/index.html
+  167  cat dist/star-collection-game/index.html
+  168  ng build --configuration production
+  169  npx angular-cli-ghpages --dir=dist/star-collection-game
+  170  npx angular-cli-ghpages --dir=dist/star-collection-game
+  171  code .
+  172  ng serve
+  173  git
+  174  git add .
+  175  git commit -m "Agregué lógica de niveles, estrellas y meteoritos"
+  176  git push origin gh-pages
+  177  git pull origin gh-pages --rebase
+  178  git push origin gh-pages
+  179  npm install
+  180  git rebase --abort
+  181  git checkout main
+  182  git branch
+  183  node_modules/.package-lock.json
+  184  package-lock.json
+  185  rm package-lock.json
+  186  rm node_modules/.package-lock.json
+  187  del package-lock.json
+  188  del node_modules\.package-lock.json
+  189  git rebase --abort
+  190  git rebase --abort
+  191  git status
+  192  git push origin gh-pages
+  193  git push origin gh-pages --force
+  194  git rm -r --cached .angular/cache
+  195  git commit -m "Remove Angular cache from repo"
+  196  git push origin gh-pages --force
+  197  ng version
+  198  ng serve
+  199  rm -rf node_modules package-lock.json
+  200  npm install
+  201  ng serve
+  202  code .
+  203  ng serve
+  204  ng serve
+  205  ng serve
+  206  cd ~/OneDrive/Escritorio/star-collection-game
+  207  ng serve
+  208  ng serve
+  209  ng build --configuration production
+  210  cd ~/OneDrive/Escritorio/star-collection-game
+  211  code .
+  212  ng build --configuration production --base-href /star-collection-game/
+  213  git checkout gh-pages
+  214  cp -r dist/star-collection-game/* .
+  215  git clean -fd
+  216  git add .
+  217  git commit -m "🚀 Nueva versión del juego desplegada"
+  218  git push origin gh-pages
+  219  cd ~/OneDrive/Escritorio/star-collection-game
+  220  npm install
+  221  ng serve
+  222  ng serve
+  223  ng serve --open
+  224  ng serve --open
+  225  code .
+  226  ng serve
+  227  ng serve
+  228  ng serve
+  229  ng serve
+  230  ng serve
+  231  ng serve
+  232  ng serve
+  233  ng serve --open
+  234  cd ~/OneDrive/Escritorio/star-collection-game
+  235  ng serve
+  236  ng serve --open
+  237  ng serve --open
+  238  ng serve
+  239  ng serve
+  240  ng serve --open
+  241  ng serve --open
+  242  ng serve --open
+  243  ng serve --open
+  244  ng serve --open
+  245  ng serve --open
+  246  ng serve
+  247  ng serve
+  248  ng serve
+  249  ng serve --open
+  250  ng serve --open
+  251  ng serve --open
+  252  ng serve --open
+  253  code .
+  254  ng serve --open
+  255  ng serve
+  256  ng serve --open
+  257  ng serve
+  258  code .
+  259  ng serve --open
+  260  ng serve --open
+  261  ng serve --open
+  262  ng serve --open
+  263  code .
+  264  git checkout main
+  265  git add .
+  266  git commit -m "Actualización con mejoras: fondo azul, velocidad ajustada, estación galáctica
+  267  [200~git add .
+  268  git commit -m "Actualización con mejoras: fondo azul, velocidad ajustada, estación galáctica"
+  269  git checkout main
+  270  ng servir
+  271  ng serve
+  272  code .
+  273  ng serve
+  274  ng build --prod --base-href https://lau-pere.github.io/star-collection-game/
+  275  ngh --dir dist/star-collection-game
+  276  ng build --configuration production --base-href /star-collection-game/
+  277  gh-pages --dir dist/star-collection-game
+  278  npm install -g gh-pages
+  279  gh-pages --dir dist/star-collection-game
+  280  gh-pages -d dist/star-collection-game
+  281  gh-pages -d dist/star-collection-game
+  282  gh-pages -d dist/star-collection-game
+  283  ng build --prod
+  284  ng build --configuration production
+  285  ls -lR dist/star-collection-game
+  286  gh-pages -d dist/star-collection-game
+  287  cd "C:\Users\Usuario\OneDrive\Escritorio\star-collection-game"
+  288  ng build --configuration production
+  289  npx gh-pages -d dist/star-collection-game
+  290  rm -rf .cache
+  291  rm -rf node_modules/.cache
+  292  npm cache clean --force
+  293  rm -rf .cache; rm -rf node_modules/.cache
+  294  npm install
+  295  ng build --configuration production
+  296  npm install -g http-server
+  297  http-server ./dist/star-collection-game
+  298  npx angular-cli-ghpages --dir=dist/star-collection-game
+  299  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  300  rm -rf node_modules/.cache/gh-pages
+  301  rm -rf node_modules/.cache/gh-pages
+  302  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  303  rm -rf node_modules/.cache/gh-pages
+  304  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  305  rm -rf node_modules/.cache
+  306  rm -rf node_modules/@angular/cli/node_modules/.cache
+  307  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  308  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  309  cd ~/OneDrive/Escritorio/star-collection-game
+  310  rm -rf node_modules
+  311  rm -rf package-lock.json
+  312  rm -rf .cache
+  313  npm install
+  314  ng build --configuration production
+  315  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  316  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  317  npx angular-cli-ghpages --dir=dist/star-collection-game --cache-dir=./.cache-ghpages --no-silent
+  318  git checkout main
+  319  git branch -D gh-pages
+  320  git stash push -m
+  321  git stash push -m "Guardando antes de cambiar rama"
+  322  git checkout main
+  323  git pull
+  324  ng build --configuration production
+  325  npx angular-cli-ghpages --dir=dist/mi-nuevo-proyecto
+  326  ng build --configuration production --output-path=dist/star-collection-game
+  327  npx angular-cli-ghpages --dir=dist/star-collection-game --no-silent
+  328  ng build --configuration production
+  329  git status
+  330  git add .
+  331  git commit -m "mensaje"
+  332  git config --global core.autocrlf true
+  333  ng build --configuration production --output-path=dist/star-collection-game
+  334  ng build --configuration production --output-path=dist/star-collection-game
+  335  ng build --configuration production --output-path=dist/star-collection-game
+  336  npx angular-cli-ghpages --dir=dist/star-collection-game
+  337  ls dist/star-collection-game/index.html
+  338  rm -rf dist
+  339  ng build --configuration production
+  340  ls dist/star-collection-game/index.html
+  341  ls src/index.html
+  342  rm -rf dist
+  343  ng cache clean
+  344  ng build --configuration production
+  345  ls dist/star-collection-game/index.html
+  346  ng build
+  347  ls dist/star-collection-game/index.html
+  348  C:\star-collection-game
+  349  cd /c/star-collection-game
+  350  ng build --configuration production
+  351  npx angular-cli-ghpages --dir=dist/star-collection-game
+  352  dist/star-collection-game/
+  353  rm -rf dist
+  354  ng build --configuration production
+  355  ls -l dist/star-collection-game/
+  356  rm -rf dist
+  357  ng build --configuration production
+  358  ls dist/star-collection-game/index.html
+  359  npx angular-cli-ghpages --dir=dist/star-collection-game
+  360  ng build --configuration production --base-href /star-collection-game/
+  361  npx angular-cli-ghpages --dir=dist/star-collection-game
+  362  ng build --configuration production --base-href /star-collection-game/
+  363  npx angular-cli-ghpages --dir=dist/star-collection-game
+  364  code .
+  365  git add .
+  366  git commit -m "Guardar cambios antes de cambiar rama"
+  367  git add .
+  368  git commit -m "Corrige base-href, rutas de assets y lógica del juego"
+  369  git push origin main
+  370  ng build --prod
+  371  ng version
+  372  ng build --configuration production
+  373  ngh --dir dist/star-collection-game
+  374  code .
+  375  ng build --configuration production
+  376  ngh --dir dist/star-collection-game
+  377  ng build --configuration production
+  378  ngh --dir dist/star-collection-game
+  379  [200~ng build --configuration production
+  380  ngh --dir dist/star-collection-game
+  381  cd C:\star-collection-game
+  382  dir
+  383  cd src/app
+  384  dir
+  385  cd ..\..
+  386  cd ..
+  387  dir
+  388  cd ..
+  389  dir
+  390  ng build --configuration production
+  391  ngh --dir dist/star-collection-game
+  392  code .
+  393  ng build --configuration production
+  394  ngh --dir dist/star-collection-game
+  395  code .
+  396  ng build --configuration production
+  397  ngh --dir dist/star-collection-game
+  398  code .
+  399  ng build --configuration production
+  400  ngh --dir dist/star-collection-game
+  401  ng build --configuration production
+  402  ngh --dir dist/star-collection-game
+  403  code .
+  404  ng build --configuration production
+  405  [200~ngh --dir dist/star-collection-game~
+  406  code .
+  407  ng build --configuration production
+  408  ngh --dir dist/star-collection-game
+  409  code .
+  410  ng build --configuration production
+  411  ngh --dir dist/star-collection-game
+  412  C:\star-collection-game
+  413  code .
+  414  C:\star-collection-game
+  415  cd C:\star-collection-game
+  416  code .
+  417  ng build --configuration production
+  418  ngh --dir/star-collection-game
+  419  ngh --dir dist/star-collection-game
+  420  ng build --configuration production
+  421  ngh --dir dist/star-collection-game
+  422  ng build --configuration production
+  423  ngh --dir dist/star-collection-game
+  424  ng build --configuration production
+  425  ngh --dir dist/star-collection-game
+  426  ng build --configuration production
+  427  ngh --dir dist/star-collection-game
+  428  ng build --configuration production
+  429  ngh --dir dist/star-collection-game
+  430  code .
+  431  ng build --configuration production
+  432  ngh --dir dist/star-collection-game
+  433  code .
+  434  ng build --configuration production
+  435  ngh --dir dist/star-collection-game
+  436  code .
+  437  ng build --configuration production
+  438  ngh --dir dist/star-collection-game
+  439  code .
+  440  ng build --configuration production --delete-output-path
+  441  C:\star-collection-game\dist\star-collection-game\assets
+  442  cd dist/star-collection-game/assets
+  443  ng build --configuration production --delete-output-path --verbose
+  444  cd dist/star-collection-game
+  445  ls -l
+  446  cd src/app/assets
+  447  ls -l
+  448  ng build --configuration production --delete-output-path --verbose
+  449  cd dist/star-collection-game/assets
+  450  ls -l
+  451  ng build --configuration production --delete-output-path --verbose
+  452  cd dist/star-collection-game
+  453  ls -l
+  454  cd assets
+  455  ls -l
+  456  ngh --dir dist/star-collection-game
+  457  cd /c/star-collection-game
+  458  ngh --dir dist/star-collection-game
+  459  npm install matter-js @types/matter-js tailwindcss
+  460  npx tailwindcss init
+  461  ls node_modules | grep tailwindcss
+  462  npm cache clean --force
+  463  ng new motocross-legends --style=css --routing=true --standalone --skip-tests
+  464  cd motocross-legends
+  465  npm install matter-js @types/matter-js tailwindcss
+  466  npx tailwindcss init
+  467  npm uninstall tailwindcss
+  468  npm install tailwindcss
+  469  npx tailwindcss init
+  470  npm cache clean --force
+  471  npx tailwindcss init
+  472  code .
+  473  npm install -D postcss autoprefixer
+  474  npm install -D tailwindcss
+  475  npx tailwindcss init
+  476  npm install -D postcss autoprefixer
+  477  rm -rf node_modules package-lock.json
+  478  npm install
+  479  ng serve
+  480  npm install -D @tailwindcss/postcss
+  481  rm -rf node_modules package-lock.json
+  482  npm install
+  483  ng serve
+  484  npm install -D @tailwindcss/postcss
+  485  ng serve
+  486  npm install -D @tailwindcss/postcss
+  487  ng serve
+  488  cd ..
+  489  rm -rf motocross-legends
+  490  [200~node --version~
+  491  node --version
+  492  mkdir ejercicio-jest
+  493  cd ejercicio-jest
+  494  npm init -y
+  495  npm install --save-dev jest
+  496  code .
+  497  touch funciones.js funciones.test.js arrays.js arrays.test.js
+  498  ls
+  499  code .
+  500  npm test
+  501  mkdir gitlau
+  502  cd gitlau
+  503  git init
+  504  echo "primera linea de texto" > notas.txt
+  505  cat notas.txt
+  506  git add notas.txt
+  507  git comit -m "primer commit con notas.txt"
+  508  git branch rama-ideas
+  509  git status
+  510  git commit -m "primer commit con notas.txt"
+  511  git branch rama-ideas
+  512  git checkout rama-ideas
+  513  echo "ideas de desarrollo: implementar login" >> notas.txt
+  514  echo "ideas de desarrollo: implementar login" >> notas.txt echo "ideas de desarrollo: añadir base de datos" >> notas.txt
+  515  cat notas.txt
+  516  git add notas.txt git commit -m "añadir ideas de desarrollo"
+  517  echo "Primera linea de texto" > notas.txt
+  518  echo "Ideas de desarrollo: implementar login" >> notas.txt
+  519  echo "Ideas de desarrollo: añadir base de datos" >> notas.txt
+  520  cat notas.txt
+  521  git add notas.txt
+  522  git commit -m "Añadir ideas de desarrollo"
+  523  git checkout master
+  524  echo "Notas del equipo: reunion el viernes" >> notas.txt
+  525  cat notas.txt
+  526  git add notas.txt
+  527  git commit -m "Añadir notas del equipo"
+  528  git merge rama-ideas
+  529  cat notas.txt
+  530  git branch -d rama-ideas
+  531  notepad notas.txt
+  532  git add notas.txt
+  533  git commit -m "Resolver conflicto de merge"
+  534  git branch -d rama-ideas
+  535  git remote add origin https://github.com/Lau-Pere/miProyecto.git
+  536  git branch -M main
+  537  git push -u origin main
+  538  history > Lau.txt
+  539  cd
+  540  mkdir ejercicios12 && cd ejercicios12
+  541  touch ej1.js Persona.java Estudiante.java
+  542  code .
+  543  cd
+  544  git push -u origin main
+  545  cd ~/gitlau && git push -u origin main
+  546  git pull origin main --allow-unrelated-histories
+  547  git push -u origin main
+  548  rm -rf ~/gitlau
+  549  mkdir gitlau
+  550  cd ~/gitlau
+  551  cd
+  552  mkdir gitlau
+  553  cd gitlau
+  554  pwd
+  555  git init -b main
+  556  echo "Nota inicial: proyecto examen - $(date +%F)" > notas.txt
+  557  git add notas.txt
+  558  git commit -m "Primer commit: notas inicial"
+  559  git add notas.txt
+  560  git commit -m "Primer commit: notas inicial"
+  561  git switch -c rama-ideas
+  562  echo "Idea: prototipo de formulario rápido" >> notas.txt
+  563  echo "Idea: validaciones en cliente antes de enviar" >> notas.txt
+  564  git add notas.txt
+  565  git commit -m "Añadir ideas de desarrollo en rama-ideas"
+  566  git switch main
+  567  echo -e "\n---\nNotas del equipo:\n- Reunión lunes 10:00\n- Responsable: Lau" >> notas.txt
+  568  git add notas.txt
+  569  git commit -m "Añadir notas del equipo en main"
+  570  echo -e "\n---\nNotas del equipo:\n- Reunión lunes 10:00\n- Responsable: Lau" >> notas.txt
+  571  git add notas.txt
+  572  git commit -m "Añadir notas del equipo en main"
+  573  git merge rama-ideas
+  574  cat notas.txt
+  575  Nota inicial: proyecto examen - 2025-10-02
+  576  ---
+  577  Notas del equipo:
+  578  - Reunión lunes 10:00
+  579  - Responsable: Lau
+  580  Idea: prototipo de formulario rápido
+  581  Idea: validaciones en cliente antes de enviar
+  582  notepad notas.txt
+  583  git add notas.txt
+  584  git commit -m "Resolver conflicto de merge entre main y rama-ideas"
+  585  cat notas.txt
+  586  git log --oneline --graph --decorate --all
+  587  git branch -d rama-ideas
+  588  git remote add origin https://github.com/<tuUsuario>/miProyecto.git
+  589  git branch -M main
+  590  git remote add origin https://github.com/Lau-Pere/miProyecto.git
+  591  git branch -M main
+  592  git push -u origin main
+  593  git remote -v
+  594  git config --global user.name "Lau-Pere"
+  595  git config --global user.email "pereyra.laura.a@gmail.com"
+  596  git config user.name
+  597  git config user.email
+  598  git log --oneline --decorate --graph --all --pretty=format:"%h %an: %s"
+  599  history > Lau.txt
+mkdir gitlau
+cd gitlau
+git init
+echo "primera linea de texto" > notas.txt
+cat notas.txt
+git add notas.txt
+git comit -m "primer commit con notas.txt"
+git branch rama-ideas
+git status
+git commit -m "primer commit con notas.txt"
+git branch rama-ideas
+git checkout rama-ideas
+echo "ideas de desarrollo: implementar login" >> notas.txt
+echo "ideas de desarrollo: implementar login" >> notas.txt echo "ideas de desarrollo: añadir base de datos" >> notas.txt
+cat notas.txt
+git add notas.txt git commit -m "añadir ideas de desarrollo"
+echo "Primera linea de texto" > notas.txt
+echo "Ideas de desarrollo: implementar login" >> notas.txt
+echo "Ideas de desarrollo: añadir base de datos" >> notas.txt
+cat notas.txt
+git add notas.txt
+git commit -m "Añadir ideas de desarrollo"
+git checkout master
+echo "Notas del equipo: reunion el viernes" >> notas.txt
+cat notas.txt
+git add notas.txt
+git commit -m "Añadir notas del equipo"
+git merge rama-ideas
+cat notas.txt
+git branch -d rama-ideas
+notepad notas.txt
+git add notas.txt
+git commit -m "Resolver conflicto de merge"
+git branch -d rama-ideas
+git remote add origin https://github.com/Lau-Pere/miProyecto.git
+git branch -M main
+git push -u origin main
+history > Lau.txt
+cd
+mkdir ejercicios12 && cd ejercicios12
+touch ej1.js Persona.java Estudiante.java
+code .
+cd
+git push -u origin main
+cd ~/gitlau && git push -u origin main
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+rm -rf ~/gitlau
+mkdir gitlau
+cd ~/gitlau
+cd
+mkdir gitlau
+cd gitlau
+pwd
+git init -b main
+echo "Nota inicial: proyecto examen - $(date +%F)" > notas.txt
+git add notas.txt
+git commit -m "Primer commit: notas inicial"
+git add notas.txt
+git commit -m "Primer commit: notas inicial"
+git switch -c rama-ideas
+echo "Idea: prototipo de formulario rápido" >> notas.txt
+echo "Idea: validaciones en cliente antes de enviar" >> notas.txt
+git add notas.txt
+git commit -m "Añadir ideas de desarrollo en rama-ideas"
+git switch main
+echo -e "\n---\nNotas del equipo:\n- Reunión lunes 10:00\n- Responsable: Lau" >> notas.txt
+git add notas.txt
+git commit -m "Añadir notas del equipo en main"
+echo -e "\n---\nNotas del equipo:\n- Reunión lunes 10:00\n- Responsable: Lau" >> notas.txt
+git add notas.txt
+git commit -m "Añadir notas del equipo en main"
+git merge rama-ideas
+cat notas.txt
+Nota inicial: proyecto examen - 2025-10-02
+---
+Notas del equipo:
+- Reunión lunes 10:00
+- Responsable: Lau
+Idea: prototipo de formulario rápido
+Idea: validaciones en cliente antes de enviar
+notepad notas.txt
+git add notas.txt
+git commit -m "Resolver conflicto de merge entre main y rama-ideas"
+cat notas.txt
+git log --oneline --graph --decorate --all
+git branch -d rama-ideas
+git remote add origin https://github.com/<tuUsuario>/miProyecto.git
+git branch -M main
+git remote add origin https://github.com/Lau-Pere/miProyecto.git
+git branch -M main
+git push -u origin main
+git remote -v
+git config --global user.name "Lau-Pere"
+git config --global user.email "pereyra.laura.a@gmail.com"
+git config user.name
+git config user.email
+git log --oneline --decorate --graph --all --pretty=format:"%h %an: %s"
+history > Lau.txt
+history -a Lau.txt
