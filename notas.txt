@@ -5,7 +5,5 @@ Notas del equipo:
 - Reunión lunes 10:00
 - Responsable: Lau
 
----
-Notas del equipo:
-- Reunión lunes 10:00
-- Responsable: Lau
+Idea: prototipo de formulario rápido
+Idea: validaciones en cliente antes de enviar
